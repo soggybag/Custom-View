@@ -17,4 +17,6 @@ These classes use @IBInspectible to add properties that can be set using the pro
 The classes also make use of @IBDesignable which allows them to draw the borders in storyboard. 
 This allows you to easily see the effects of setting these properties while you work. 
 
-### NOTE: There is also an `CustomLabel` class. Which is not working correctly at the moment. 
+### NOTE: 
+
+There is also an `CustomLabel` class. Which is not working correctly at the moment. 
