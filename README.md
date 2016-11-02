@@ -8,7 +8,7 @@ There are three custom classes in this example project:
 - CustomImageView
 - CustomView
 
-## @IBInspectible
+## @IBInspectable
 
 These classes use @IBInspectible to add properties that can be set using the property inspector in storyboard. 
 
