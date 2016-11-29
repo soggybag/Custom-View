@@ -8,8 +8,8 @@
 
 import UIKit
 
-@IBDesignable class CustomView: UIView {
-    
+@IBDesignable
+class CustomLabel: UILabel {
     @IBInspectable var borderColor: UIColor? = UIColor.clear {
         didSet {
             layer.borderColor = self.borderColor?.cgColor
@@ -39,9 +39,14 @@ import UIKit
         
     }
     
-    override func draw(_ rect: CGRect) {
+    
+    override func layoutSubviews() {
+        // Why layout subviews here? http://stackoverflow.com/questions/20970786/uilabel-subclass-doesnt-show-text
         self.layer.cornerRadius = self.cornerRadius
         self.layer.borderWidth = self.borderWidth
         self.layer.borderColor = self.borderColor?.cgColor
+        
+        setNeedsDisplay()
     }
+    
 }
