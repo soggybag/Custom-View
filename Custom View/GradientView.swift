@@ -25,9 +25,6 @@ class GradientView: UIView {
     }
     
     
-    
-    
-    
     @IBInspectable var gradientX: CGFloat = 0.5 {
         didSet {
             layoutSubviews()
