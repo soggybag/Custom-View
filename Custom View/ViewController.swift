@@ -21,6 +21,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         box.layer.addBorder(edge: .top, color: .red, thickness: 10)
+        box.layer.addBorder(edge: .left, color: .red, thickness: 10)
+        box.layer.addBorder(edge: .right, color: .red, thickness: 10)
+        box.layer.addBorder(edge: .bottom, color: .red, thickness: 10)
         
         
         
