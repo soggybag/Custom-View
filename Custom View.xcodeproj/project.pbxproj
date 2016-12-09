@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D80B96111DFB34EE00B56CBA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B96101DFB34EE00B56CBA /* Extensions.swift */; };
 		D8AF5DDB1DCA9EC800F5CE9E /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF5DDA1DCA9EC800F5CE9E /* CustomLabel.swift */; };
 		D8AF5DDD1DCAA6D100F5CE9E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF5DDC1DCAA6D100F5CE9E /* GradientView.swift */; };
 		D8B8A3621DC99F2B00F59FA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B8A3611DC99F2B00F59FA7 /* AppDelegate.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D80B96101DFB34EE00B56CBA /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		D8AF5DDA1DCA9EC800F5CE9E /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		D8AF5DDC1DCAA6D100F5CE9E /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		D8B8A35E1DC99F2B00F59FA7 /* Custom View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +85,7 @@
 				D8B8A3631DC99F2B00F59FA7 /* ViewController.swift */,
 				D8AF5DD91DCA9E0100F5CE9E /* Custom View Classes */,
 				D8B8A3651DC99F2B00F59FA7 /* Main.storyboard */,
+				D80B96101DFB34EE00B56CBA /* Extensions.swift */,
 				D8B8A3681DC99F2B00F59FA7 /* Assets.xcassets */,
 				D8B8A36A1DC99F2B00F59FA7 /* LaunchScreen.storyboard */,
 				D8B8A36D1DC99F2B00F59FA7 /* Info.plist */,
@@ -167,6 +170,7 @@
 				D8B8A3761DC9A59A00F59FA7 /* CustomButton.swift in Sources */,
 				D8AF5DDB1DCA9EC800F5CE9E /* CustomLabel.swift in Sources */,
 				D8B8A37A1DC9A99500F59FA7 /* CustomView.swift in Sources */,
+				D80B96111DFB34EE00B56CBA /* Extensions.swift in Sources */,
 				D8B8A3641DC99F2B00F59FA7 /* ViewController.swift in Sources */,
 				D8AF5DDD1DCAA6D100F5CE9E /* GradientView.swift in Sources */,
 				D8B8A3621DC99F2B00F59FA7 /* AppDelegate.swift in Sources */,

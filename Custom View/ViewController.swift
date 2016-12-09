@@ -9,10 +9,20 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    
+    @IBOutlet weak var box: UIView!
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        box.layer.addBorder(edge: .top, color: .red, thickness: 10)
+        
+        
         
         print("--------------------------")
         
