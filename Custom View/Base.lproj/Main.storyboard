@@ -71,10 +71,10 @@
             </objects>
             <point key="canvasLocation" x="55" y="37"/>
         </scene>
-        <!--View Controller2-->
+        <!--View Controller-->
         <scene sceneID="vJt-En-i1O">
             <objects>
-                <viewController id="Oke-KG-RYF" customClass="VViewController2" customModule="Custom_View" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Oke-KG-RYF" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0vz-G8-Ykp"/>
                         <viewControllerLayoutGuide type="bottom" id="T8U-A7-9la"/>
@@ -195,9 +195,6 @@
                             <constraint firstItem="8Ax-Iu-9wh" firstAttribute="top" secondItem="n9e-LT-Tyn" secondAttribute="top" id="j1u-uh-Wia"/>
                         </constraints>
                     </view>
-                    <connections>
-                        <outlet property="gradView" destination="8Ax-Iu-9wh" id="ulJ-eK-yc2"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wgs-jl-7q1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
