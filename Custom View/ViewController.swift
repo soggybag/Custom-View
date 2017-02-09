@@ -21,8 +21,15 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+<<<<<<< HEAD
         OneParkingManager.sharedInstance.getParking()
         OneParkingManager.sharedInstance.findLocation()
+=======
+        box.layer.addBorder(edge: .top, color: .red, thickness: 10)
+        box.layer.addBorder(edge: .left, color: .red, thickness: 10)
+        box.layer.addBorder(edge: .right, color: .red, thickness: 10)
+        box.layer.addBorder(edge: .bottom, color: .red, thickness: 10)
+>>>>>>> origin/master
         
         
         
