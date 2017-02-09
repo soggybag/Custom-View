@@ -24,39 +24,12 @@ import UIKit
         }
     }
     
-    
-    @IBInspectable var gradientX: CGFloat = 0.5 {
+    @IBInspectable var angle: CGFloat = 0 {
         didSet {
             layoutSubviews()
         }
     }
     
-    @IBInspectable var gradientY: CGFloat = 0.5 {
-        didSet {
-            layoutSubviews()
-        }
-    }
-    
-    @IBInspectable var gradientEndX: CGFloat = 0.5 {
-        didSet {
-            layoutSubviews()
-        }
-    }
-    
-    @IBInspectable var gradientEndY: CGFloat = 0.5 {
-        didSet {
-            layoutSubviews()
-        }
-    }
-    
-    
-    
-    
-    /*@IBInspectable var angle: CGFloat = 0 {
-        didSet {
-            layoutSubviews()
-        }
-    }*/
     
     var gradientLayer: CAGradientLayer {
         return layer as! CAGradientLayer
@@ -70,15 +43,19 @@ import UIKit
         let colors  = [topColor.cgColor, bottomColor.cgColor]
         gradientLayer.colors = colors
         
-        // GOAL: Use one number to calculate angle for gradient
-        // TODO: Find x and y pairs for angle
+        let radians = angle * CGFloat(M_PI) / 180
         
-        // let x = cos(angle) * 0.5 + 0.5
-        // let y = sin(angle) * 0.5 + 0.5
+        print("---- \(radians)")
         
-        // print(x, y)
-        gradientLayer.endPoint = CGPoint(x: gradientX, y: gradientY)
-        gradientLayer.startPoint = CGPoint(x: gradientEndX, y: gradientEndY)
+        let x1 = cos(radians) * 0.5 + 0.5 // 0 to 1
+        let x2 = 1 - x1
+        let y1 = sin(radians) * 0.5 + 0.5
+        let y2 = 1 - y1
+        
+        // print("x1: \(x1) y1: \(y1) x2: \(x2) y2: \(y2)")
+        
+        gradientLayer.endPoint = CGPoint(x: x1, y: y1)
+        gradientLayer.startPoint = CGPoint(x: x2, y: y2)
         
         self.setNeedsDisplay()
     }
