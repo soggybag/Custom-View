@@ -8,25 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		D80B96111DFB34EE00B56CBA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B96101DFB34EE00B56CBA /* Extensions.swift */; };
+		D82AB4691E53E9EF004ABC18 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82AB4681E53E9EF004ABC18 /* GradientButton.swift */; };
 		D8AF5DDB1DCA9EC800F5CE9E /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF5DDA1DCA9EC800F5CE9E /* CustomLabel.swift */; };
 		D8AF5DDD1DCAA6D100F5CE9E /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AF5DDC1DCAA6D100F5CE9E /* GradientView.swift */; };
-		D8B5456B1E0350820052865F /* background-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8B5456A1E0350820052865F /* background-1.jpg */; };
 		D8B8A3621DC99F2B00F59FA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B8A3611DC99F2B00F59FA7 /* AppDelegate.swift */; };
 		D8B8A3641DC99F2B00F59FA7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B8A3631DC99F2B00F59FA7 /* ViewController.swift */; };
 		D8B8A3671DC99F2B00F59FA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B8A3651DC99F2B00F59FA7 /* Main.storyboard */; };
 		D8B8A3691DC99F2B00F59FA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B8A3681DC99F2B00F59FA7 /* Assets.xcassets */; };
 		D8B8A36C1DC99F2B00F59FA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B8A36A1DC99F2B00F59FA7 /* LaunchScreen.storyboard */; };
 		D8B8A3761DC9A59A00F59FA7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B8A3751DC9A59A00F59FA7 /* CustomButton.swift */; };
-		D8B8A3781DC9A96900F59FA7 /* IMG_0311.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D8B8A3771DC9A96900F59FA7 /* IMG_0311.jpg */; };
 		D8B8A37A1DC9A99500F59FA7 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B8A3791DC9A99500F59FA7 /* CustomView.swift */; };
 		D8B8A37C1DC9A9B100F59FA7 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B8A37B1DC9A9B100F59FA7 /* CustomImageView.swift */; };
+		D8C02BDE1E4D391200A23A11 /* Photo-small.png in Resources */ = {isa = PBXBuildFile; fileRef = D8C02BDD1E4D391200A23A11 /* Photo-small.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D80B96101DFB34EE00B56CBA /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D82AB4681E53E9EF004ABC18 /* GradientButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		D8AF5DDA1DCA9EC800F5CE9E /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		D8AF5DDC1DCAA6D100F5CE9E /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
-		D8B5456A1E0350820052865F /* background-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "background-1.jpg"; sourceTree = "<group>"; };
 		D8B8A35E1DC99F2B00F59FA7 /* Custom View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Custom View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B8A3611DC99F2B00F59FA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8B8A3631DC99F2B00F59FA7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,9 +35,9 @@
 		D8B8A36B1DC99F2B00F59FA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8B8A36D1DC99F2B00F59FA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D8B8A3751DC9A59A00F59FA7 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
-		D8B8A3771DC9A96900F59FA7 /* IMG_0311.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0311.jpg; sourceTree = "<group>"; };
 		D8B8A3791DC9A99500F59FA7 /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		D8B8A37B1DC9A9B100F59FA7 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		D8C02BDD1E4D391200A23A11 /* Photo-small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Photo-small.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				D8B8A3751DC9A59A00F59FA7 /* CustomButton.swift */,
+				D82AB4681E53E9EF004ABC18 /* GradientButton.swift */,
 				D8B8A37B1DC9A9B100F59FA7 /* CustomImageView.swift */,
 				D8B8A3791DC9A99500F59FA7 /* CustomView.swift */,
 				D8AF5DDC1DCAA6D100F5CE9E /* GradientView.swift */,
@@ -68,8 +69,7 @@
 			children = (
 				D8B8A3601DC99F2B00F59FA7 /* Custom View */,
 				D8B8A35F1DC99F2B00F59FA7 /* Products */,
-				D8B8A3771DC9A96900F59FA7 /* IMG_0311.jpg */,
-				D8B5456A1E0350820052865F /* background-1.jpg */,
+				D8C02BDD1E4D391200A23A11 /* Photo-small.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -156,10 +156,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8B8A3781DC9A96900F59FA7 /* IMG_0311.jpg in Resources */,
 				D8B8A36C1DC99F2B00F59FA7 /* LaunchScreen.storyboard in Resources */,
 				D8B8A3691DC99F2B00F59FA7 /* Assets.xcassets in Resources */,
-				D8B5456B1E0350820052865F /* background-1.jpg in Resources */,
+				D8C02BDE1E4D391200A23A11 /* Photo-small.png in Resources */,
 				D8B8A3671DC99F2B00F59FA7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -175,6 +174,7 @@
 				D8AF5DDB1DCA9EC800F5CE9E /* CustomLabel.swift in Sources */,
 				D8B8A37A1DC9A99500F59FA7 /* CustomView.swift in Sources */,
 				D80B96111DFB34EE00B56CBA /* Extensions.swift in Sources */,
+				D82AB4691E53E9EF004ABC18 /* GradientButton.swift in Sources */,
 				D8B8A3641DC99F2B00F59FA7 /* ViewController.swift in Sources */,
 				D8AF5DDD1DCAA6D100F5CE9E /* GradientView.swift in Sources */,
 				D8B8A3621DC99F2B00F59FA7 /* AppDelegate.swift in Sources */,

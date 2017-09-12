@@ -10,6 +10,7 @@ import UIKit
 
 @IBDesignable
 class CustomImageView: UIImageView {
+    
     @IBInspectable var borderColor: UIColor? = UIColor.clear {
         didSet {
             layer.borderColor = self.borderColor?.cgColor
@@ -28,6 +29,10 @@ class CustomImageView: UIImageView {
             layer.masksToBounds = self.cornerRadius > 0
         }
     }
+    
+    
+    
+    
     
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)

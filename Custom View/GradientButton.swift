@@ -1,15 +1,15 @@
 //
-//  CustomButton.swift
-//  EarPractice
+//  GradientButton.swift
+//  Custom View
 //
-//  Created by mitchell hudson on 9/7/16.
-//  Copyright © 2016 Mitchell Hudson. All rights reserved.
+//  Created by mitchell hudson on 2/14/17.
+//  Copyright © 2017 mitchell hudson. All rights reserved.
 //
 
 import UIKit
 
-@IBDesignable class CustomButton: UIButton {
-    
+class GradientButton: UIButton {
+        
     @IBInspectable var borderColor: UIColor? = UIColor.clear {
         didSet {
             layer.borderColor = self.borderColor?.cgColor
@@ -44,8 +44,5 @@ import UIKit
         self.layer.borderWidth = self.borderWidth
         self.layer.borderColor = self.borderColor?.cgColor
     }
-    
-    override func layoutSubviews() {
-        
-    }
 }
+
